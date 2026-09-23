@@ -4,7 +4,10 @@ export type PhraseCategory =
   | 'reservations'
   | 'breakfast'
   | 'payments'
-  | 'phone';
+  | 'phone'
+  | 'requests'
+  | 'problems'
+  | 'general';
 
 export interface Phrase {
   id: string;

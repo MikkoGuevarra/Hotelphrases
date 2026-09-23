@@ -298,6 +298,9 @@ export class Category {
       breakfast: 'Colazione',
       payments: 'Pagamenti',
       phone: 'Telefono',
+      requests: 'Richieste',
+      problems: 'Problemi',
+      general: 'Frasi utili',
     };
 
     return titles[this.categoryId] ?? 'Frasi';

@@ -23,6 +23,11 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'guide',
+    loadComponent: () =>
+      import('./pages/work-guide/work-guide').then((m) => m.WorkGuide),
+  },
+  {
     path: '**',
     redirectTo: '',
   },
